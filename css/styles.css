@@ -1,35 +1,80 @@
-header {
-	background:#2c3e50;
-	color:#fff; 
+body {
+  background-color: #A60303;
 }
 
-.main {
-	background: #34495e;
-	color:#fff; 
+.navbar-brand h1 {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
 
-.color1 {
-	background: #34495e;
-	color: #fff;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
 }
 
 
-.color2 {
-	background: #787878;
-	color: #fff;
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
 }
 
-.color3 {
-	background: #b4b4b4;
-	color: #fff;
+h3 {
+  text-align: center;
+  color: #fff;
+  padding-top: 5px;
+  font-weight: bold;
 }
 
-aside {
-	background: #c0392b;
-	 color: #fff;
+.one {
+  background-color: #F2B705;
+  height: 1000px;
+
 }
 
-footer {
-	background: #16a085;
-	color: #fff;
+.two {
+  background-color: #F24405;
+  height: 1000px;
 }
+
+.three {
+  background-color: #F2B705;
+  height: 1000px;
+}
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* FOOD,LLC */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  /********** Super extra small devices Only **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
